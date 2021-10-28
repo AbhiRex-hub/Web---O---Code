@@ -1,1 +1,369 @@
+body{
+	background-color: #E4D3C3;
+	display: grid;
+	grid-template-columns: 98%;
+	grid-row-gap: 4rem;
+	justify-content: center;
+}
 
+.Intro_Container{
+	width: 100%;
+	min-width: 90rem;
+	height: 43rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Navigation{
+	width: 96%;
+	height: 5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-family: 'Oswald', sans-serif;
+}
+
+li{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	font-family: 'Oswald', sans-serif; 
+	transition: all 0.5s;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+
+li:hover{
+	color:  black;
+	transform: scale(1.1);
+}
+
+.Logo{
+	width: 20%;
+	background-image: url('Logo.png');
+	background-size: contain;
+	object-fit: contain;
+	background-position: 0px 10px;
+	background-repeat: no-repeat;
+}
+
+.Navigation_Links{
+	display: flex;
+	justify-content: space-around;
+	background: linear-gradient(#7FCB72, #0F8B93);
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.Head_Intro{
+	min-width: 96%;
+	max-width: 96%;
+	height: 37rem;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	box-shadow: 2px 2px 10px black;
+}
+
+.Head_Intro_Image{
+	background-image: url('https://nowjakarta.co.id/uploads/ckeditor/pictures/362/content_NIS_Jakarta.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Head_Intro_Side{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+.Quote{
+	background-image: url('Eienstein.jpg');
+	width: 100%;
+	height: 40%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-bottom: 1px solid white;
+}
+
+.Head_Intro_Text1{
+  	background: -webkit-linear-gradient(0deg, orange, #B746B9);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-size: 7rem;
+	margin-left: -10rem;
+	font-family: 'Roboto', sans-serif;
+	filter: drop-shadow(2px 2px #333);
+}
+
+.Head_Intro_Text2{
+  	background: -webkit-linear-gradient(0deg, orange , #B746B9);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	font-size: 7rem;
+	margin-left: -10rem;
+	font-family: 'Roboto', sans-serif;
+	filter: drop-shadow(2px 2px #333);
+}
+
+.Carousel{
+	max-width: 100%;
+	min-width: 88.5rem;
+	height: 30rem;
+	margin: auto;
+	box-shadow: 2px 2px 10px black;
+}
+
+.About_Block{
+	background: linear-gradient(#7FCB72, #0F8B93);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 7fr;
+}
+
+.About_Button{
+	background-color: black;
+	color: white;
+	width: 20%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Oswald', sans-serif;
+	margin: auto;
+}
+
+.About_Description{
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	text-align: center;
+	font-family:'Oswald', sans-serif;
+	font-size: 1.5rem;
+}
+
+.Team_Button{
+	background-color: black;
+	color: white;
+	width: 20%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Oswald', sans-serif;
+	margin: auto;
+}
+
+.Team{
+	width: 81%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.goal{
+	width: 59%;
+	height: 10%;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.Team_Image{
+	width: 90%;
+	height: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.IMCard{
+	width: 20%;
+	height: 100%;
+	box-shadow: 1px 1px 10px black;
+}
+
+.TI1{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/564x/75/34/0c/75340c46406428ebba460f02b79a36c0.jpg");
+	background-size: cover ;
+}
+
+.TI2{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/564x/74/73/3c/74733c7bd7e7386f126ae93a179c781b.jpg");
+	background-size: cover ;
+}
+
+.TI3{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/236x/29/fb/b9/29fbb91a91766ce76398e7720dcc2154.jpg");
+	background-size: cover ;
+}
+
+.TI4{
+	width: 100%;
+	height: 80%;
+	background-image: url("https://i.pinimg.com/236x/ac/03/39/ac0339351fe4811e90ae596a0474eab5.jpg");
+	background-size: cover ;
+}
+
+.TeamText{
+	width: 100%;
+	height: 20%;
+	background-color: black;
+	color: white;
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.Courses_Block{
+	background: linear-gradient(45deg, #FF9600, #EA4771, #86065F);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 7fr;
+}
+
+.Courses_Button{
+	background-color: black;
+	color: white;
+	width: 30%;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Oswald', sans-serif;
+	margin: auto;
+}
+
+.Course_Tile{
+	width: 70%;
+	height: 80%;
+	display: grid;
+	grid-template-columns: 0.85fr 1fr;
+	margin:auto;
+}
+
+.Course_Image1{
+	width: 100%;
+	height: 100%;
+	background-image: url('https://media.istockphoto.com/vectors/physics-or-education-seamless-pattern-icons-and-formulas-background-vector-id1274320612?k=20&m=1274320612&s=612x612&w=0&h=kRWpVMYCvNOFfakBdwTRthE7iTK5QxsuvAdd8NwgT4E=');
+	background-size: contain;
+}
+
+.Course_Description{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	margin: auto;
+}
+
+.Course_Image2{
+	width: 100%;
+	height: 100%;
+	background-image: url('https://www.cmuse.org/wp-content/uploads/2020/05/learn-chemistry-lessons-online.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Course_Image3{
+	width: 100%;
+	height: 100%;
+	background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/196963945/original/95b12cad4916a760c2e6c9bf9734e054b8e065de/help-you-to-solve-your-exercices-and-problems-in-mathmatics-and-physics.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Reviews_Block{
+	background: linear-gradient(45deg, #FF9600, #EA4771, #86065F);
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 7fr;
+}
+
+.Review_Image1{
+	width: 100%;
+	height: 100%;
+	background-image: url('https://media.istockphoto.com/photos/portrait-of-happy-indian-man-smiling-at-home-picture-id1270067432?k=20&m=1270067432&s=170667a&w=0&h=oteWnPwtJfubzHmfGPfTfvrSSTVsLQ3hMP18oxIJaZk=');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Review_Image2{
+	width: 100%;
+	height: 100%;
+	background-image: url('https://media.istockphoto.com/photos/one-confident-attractive-indian-businesswoman-stock-image-picture-id1029826628?k=20&m=1029826628&s=612x612&w=0&h=FdCzmsiTy83FrffB_FIuvIfHsyDpx3kDqoWwL9HmDKs=');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Review_Description{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	text-align: justify;
+	margin: auto;
+}
+
+.Contact{
+	min-width: 62rem;
+	height: 35rem;
+	background-image: url('https://images.unsplash.com/photo-1592471657072-8f998e2af6aa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZW52ZWxvcGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
+	margin: auto;
+	box-shadow: 1px 1px 10px black;
+	margin-top: 4rem;
+	margin-bottom: 7rem;
+}
+
+.ContactButton{
+	background-color: black;
+	color: white;
+	width: 25%;
+	margin:  auto;
+	margin-top: 9rem;
+	box-shadow: 1px 1px 5px black;
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:'Poppins', sans-serif;
+}
+
+.ContactDescription{
+	color: white;
+	width: 50%;
+	height: 15%;
+	margin:  auto;
+	margin-top: 9rem;
+	box-shadow: 1px 1px 5px black;
+	font-size: 1.2rem;
+	display: grid;
+	grid-template-rows: 1fr 1.5fr;
+	font-family:'Poppins', sans-serif;
+}
+
+.ContactDescription div{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
